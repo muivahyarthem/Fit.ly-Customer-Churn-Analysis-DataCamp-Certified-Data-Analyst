@@ -1,0 +1,401 @@
+customer_id,email,state,plan,plan_list_price,churn_status,user_id,is_churned,has_gdpr_request
+C10000,user10000@example.com,New Jersey,enterprise,105,Y,10000,1,False
+C10001,user10001@example.net,Louisiana,basic,22,Y,10001,1,False
+C10002,user10002@example.net,Oklahoma,basic,24,,10002,0,False
+C10003,user10003@example.com,Michigan,free,0,,10003,0,False
+C10004,user10004@example.com,Texas,enterprise,119,,10004,0,False
+C10005,user10005@example.org,Ohio,enterprise,114,,10005,0,False
+C10006,user10006@example.com,Kentucky,basic,19,,10006,0,False
+C10007,user10007@example.com,North Carolina,basic,10,Y,10007,1,False
+C10008,user10008@example.net,Alaska,enterprise,87,,10008,0,False
+C10009,user10009@example.com,Virginia,free,0,,10009,0,False
+C10010,user10010@example.net,Kansas,pro,51,,10010,0,False
+C10011,user10011@example.net,Arizona,pro,57,,10011,0,False
+C10012,user10012@example.net,Idaho,enterprise,93,,10012,0,False
+C10013,user10013@example.com,Alaska,enterprise,104,,10013,0,False
+C10014,user10014@example.com,Connecticut,free,0,Y,10014,1,False
+C10015,user10015@example.com,Kansas,enterprise,110,,10015,0,False
+C10016,user10016@example.net,Colorado,enterprise,138,,10016,0,False
+C10017,user10017@example.org,Rhode Island,basic,24,,10017,0,False
+C10018,user10018@example.org,Idaho,pro,57,,10018,0,False
+C10019,user10019@example.org,Maine,enterprise,100,,10019,0,False
+C10020,user10020@example.org,Wisconsin,basic,16,,10020,0,False
+C10021,user10021@example.org,Vermont,pro,64,Y,10021,1,False
+C10022,user10022@example.com,Florida,free,0,Y,10022,1,False
+C10023,user10023@example.com,Texas,pro,32,,10023,0,False
+C10024,user10024@example.net,Delaware,enterprise,90,,10024,0,False
+C10025,user10025@example.com,Colorado,free,0,Y,10025,1,False
+C10026,user10026@example.org,New York,pro,43,,10026,0,False
+C10027,user10027@example.net,Montana,pro,51,,10027,0,False
+C10028,user10028@example.com,Kentucky,enterprise,92,,10028,0,False
+C10029,[REDACTED_GDPR],Missouri,pro,51,,10029,0,True
+C10030,user10030@example.com,West Virginia,enterprise,119,,10030,0,False
+C10031,user10031@example.org,Connecticut,free,0,,10031,0,False
+C10032,[REDACTED_GDPR],New Mexico,enterprise,104,Y,10032,1,True
+C10033,user10033@example.org,Ohio,pro,42,Y,10033,1,False
+C10034,user10034@example.com,Iowa,enterprise,139,Y,10034,1,False
+C10035,user10035@example.org,West Virginia,basic,30,,10035,0,False
+C10036,user10036@example.org,Connecticut,enterprise,97,Y,10036,1,False
+C10037,user10037@example.net,Colorado,pro,53,,10037,0,False
+C10038,user10038@example.org,Montana,free,0,Y,10038,1,False
+C10039,user10039@example.org,Rhode Island,enterprise,125,,10039,0,False
+C10040,user10040@example.net,Kansas,basic,19,,10040,0,False
+C10041,user10041@example.org,Virginia,enterprise,121,,10041,0,False
+C10042,user10042@example.net,North Dakota,enterprise,132,,10042,0,False
+C10043,user10043@example.com,Hawaii,enterprise,143,,10043,0,False
+C10044,user10044@example.net,Louisiana,basic,28,,10044,0,False
+C10045,user10045@example.com,Nebraska,basic,19,,10045,0,False
+C10046,user10046@example.com,Rhode Island,free,0,,10046,0,False
+C10047,user10047@example.com,Missouri,basic,22,,10047,0,False
+C10048,user10048@example.net,South Dakota,enterprise,134,,10048,0,False
+C10049,user10049@example.org,Virginia,basic,12,,10049,0,False
+C10050,user10050@example.com,Connecticut,basic,16,Y,10050,1,False
+C10051,user10051@example.com,Hawaii,free,0,,10051,0,False
+C10052,user10052@example.com,West Virginia,pro,33,Y,10052,1,False
+C10053,user10053@example.org,Wisconsin,basic,28,Y,10053,1,False
+C10054,user10054@example.com,Montana,free,0,,10054,0,False
+C10055,user10055@example.net,West Virginia,free,0,,10055,0,False
+C10056,user10056@example.com,Utah,basic,24,,10056,0,False
+C10057,user10057@example.org,Washington,free,0,,10057,0,False
+C10058,user10058@example.org,Kansas,free,0,Y,10058,1,False
+C10059,user10059@example.com,Rhode Island,basic,29,Y,10059,1,False
+C10060,user10060@example.org,Montana,enterprise,95,,10060,0,False
+C10061,user10061@example.com,Virginia,enterprise,99,,10061,0,False
+C10062,user10062@example.org,Arizona,free,0,,10062,0,False
+C10063,user10063@example.org,Louisiana,free,0,Y,10063,1,False
+C10064,user10064@example.net,Nebraska,basic,17,,10064,0,False
+C10065,user10065@example.net,Utah,basic,24,Y,10065,1,False
+C10066,user10066@example.com,Vermont,enterprise,140,,10066,0,False
+C10067,user10067@example.org,Pennsylvania,free,0,,10067,0,False
+C10068,user10068@example.org,Nevada,free,0,Y,10068,1,False
+C10069,user10069@example.net,Hawaii,enterprise,90,,10069,0,False
+C10070,user10070@example.com,Iowa,basic,17,,10070,0,False
+C10071,user10071@example.com,Arkansas,free,0,Y,10071,1,False
+C10072,user10072@example.com,Colorado,enterprise,115,,10072,0,False
+C10073,user10073@example.com,Virginia,pro,79,,10073,0,False
+C10074,user10074@example.net,Illinois,free,0,Y,10074,1,False
+C10075,user10075@example.net,Montana,free,0,Y,10075,1,False
+C10076,user10076@example.net,Nebraska,pro,49,Y,10076,1,False
+C10077,user10077@example.net,Virginia,free,0,,10077,0,False
+C10078,user10078@example.org,Kentucky,enterprise,137,,10078,0,False
+C10079,user10079@example.org,Florida,pro,61,,10079,0,False
+C10080,user10080@example.org,Delaware,pro,64,,10080,0,False
+C10081,user10081@example.com,Michigan,free,0,,10081,0,False
+C10082,user10082@example.com,Ohio,enterprise,131,,10082,0,False
+C10083,user10083@example.net,New Jersey,free,0,,10083,0,False
+C10084,user10084@example.com,Wyoming,free,0,Y,10084,1,False
+C10085,[REDACTED_GDPR],North Dakota,free,0,Y,10085,1,True
+C10086,user10086@example.net,California,free,0,Y,10086,1,False
+C10087,user10087@example.com,New York,pro,71,,10087,0,False
+C10088,user10088@example.com,Montana,enterprise,104,Y,10088,1,False
+C10089,user10089@example.org,Texas,free,0,,10089,0,False
+C10090,user10090@example.com,Michigan,free,0,,10090,0,False
+C10091,[REDACTED_GDPR],Oklahoma,pro,73,Y,10091,1,True
+C10092,user10092@example.org,Pennsylvania,basic,20,,10092,0,False
+C10093,user10093@example.org,Arizona,enterprise,95,,10093,0,False
+C10094,user10094@example.org,Vermont,enterprise,125,Y,10094,1,False
+C10095,user10095@example.org,Illinois,basic,30,,10095,0,False
+C10096,user10096@example.com,Michigan,pro,60,Y,10096,1,False
+C10097,user10097@example.org,Connecticut,pro,62,,10097,0,False
+C10098,user10098@example.com,Missouri,basic,28,Y,10098,1,False
+C10099,user10099@example.com,New Jersey,enterprise,147,Y,10099,1,False
+C10100,user10100@example.com,Tennessee,enterprise,111,,10100,0,False
+C10101,user10101@example.com,Arizona,basic,26,,10101,0,False
+C10102,user10102@example.net,New Mexico,free,0,,10102,0,False
+C10103,[REDACTED_GDPR],Missouri,basic,13,,10103,0,True
+C10104,user10104@example.com,Illinois,pro,69,,10104,0,False
+C10105,user10105@example.com,Utah,basic,12,,10105,0,False
+C10106,user10106@example.org,North Carolina,enterprise,130,,10106,0,False
+C10107,user10107@example.org,Florida,basic,10,,10107,0,False
+C10108,user10108@example.com,Minnesota,enterprise,94,Y,10108,1,False
+C10109,user10109@example.com,Tennessee,enterprise,136,,10109,0,False
+C10110,user10110@example.net,Maryland,free,0,,10110,0,False
+C10111,[REDACTED_GDPR],Tennessee,free,0,Y,10111,1,True
+C10112,user10112@example.com,Idaho,basic,30,,10112,0,False
+C10113,user10113@example.net,Massachusetts,enterprise,144,Y,10113,1,False
+C10114,user10114@example.net,New York,free,0,Y,10114,1,False
+C10115,user10115@example.net,Delaware,pro,57,Y,10115,1,False
+C10116,user10116@example.org,Connecticut,free,0,Y,10116,1,False
+C10117,user10117@example.net,Idaho,basic,16,Y,10117,1,False
+C10118,user10118@example.com,Delaware,free,0,,10118,0,False
+C10119,user10119@example.net,Maryland,free,0,Y,10119,1,False
+C10120,user10120@example.net,Massachusetts,free,0,,10120,0,False
+C10121,user10121@example.com,New Mexico,pro,42,,10121,0,False
+C10122,user10122@example.com,South Dakota,basic,30,,10122,0,False
+C10123,user10123@example.com,Minnesota,basic,19,,10123,0,False
+C10124,user10124@example.org,Minnesota,basic,25,,10124,0,False
+C10125,user10125@example.com,Montana,free,0,,10125,0,False
+C10126,user10126@example.com,Ohio,pro,62,,10126,0,False
+C10127,user10127@example.com,Mississippi,enterprise,120,,10127,0,False
+C10128,user10128@example.org,Wyoming,basic,17,,10128,0,False
+C10129,user10129@example.net,Delaware,basic,10,Y,10129,1,False
+C10130,user10130@example.net,Washington,basic,17,,10130,0,False
+C10131,user10131@example.com,Kentucky,pro,54,,10131,0,False
+C10132,user10132@example.net,Alaska,enterprise,125,,10132,0,False
+C10133,user10133@example.org,Missouri,enterprise,147,,10133,0,False
+C10134,[REDACTED_GDPR],Vermont,basic,23,,10134,0,True
+C10135,[REDACTED_GDPR],South Carolina,basic,24,,10135,0,True
+C10136,user10136@example.com,Arkansas,free,0,,10136,0,False
+C10137,user10137@example.net,Virginia,free,0,,10137,0,False
+C10138,user10138@example.com,West Virginia,basic,10,,10138,0,False
+C10139,user10139@example.com,Missouri,free,0,,10139,0,False
+C10140,user10140@example.net,Massachusetts,free,0,Y,10140,1,False
+C10141,user10141@example.org,Utah,enterprise,87,,10141,0,False
+C10142,user10142@example.org,North Dakota,enterprise,131,Y,10142,1,False
+C10143,user10143@example.com,Montana,enterprise,137,,10143,0,False
+C10144,user10144@example.org,Vermont,pro,56,,10144,0,False
+C10145,user10145@example.net,Rhode Island,enterprise,116,,10145,0,False
+C10146,user10146@example.com,Florida,enterprise,148,Y,10146,1,False
+C10147,user10147@example.com,Iowa,basic,19,,10147,0,False
+C10148,user10148@example.com,Ohio,free,0,Y,10148,1,False
+C10149,[REDACTED_GDPR],Louisiana,free,0,,10149,0,True
+C10150,user10150@example.net,Missouri,basic,30,Y,10150,1,False
+C10151,user10151@example.com,Pennsylvania,enterprise,134,,10151,0,False
+C10152,user10152@example.org,North Dakota,pro,67,Y,10152,1,False
+C10153,user10153@example.net,Montana,basic,13,,10153,0,False
+C10154,user10154@example.net,Virginia,free,0,Y,10154,1,False
+C10155,user10155@example.org,Virginia,pro,34,Y,10155,1,False
+C10156,user10156@example.org,Massachusetts,pro,72,,10156,0,False
+C10157,user10157@example.com,Washington,basic,18,,10157,0,False
+C10158,user10158@example.com,Minnesota,pro,73,,10158,0,False
+C10159,user10159@example.net,Ohio,pro,69,,10159,0,False
+C10160,user10160@example.net,New Jersey,basic,21,Y,10160,1,False
+C10161,user10161@example.org,Ohio,basic,27,,10161,0,False
+C10162,user10162@example.net,Maryland,pro,32,Y,10162,1,False
+C10163,user10163@example.net,Hawaii,basic,24,Y,10163,1,False
+C10164,user10164@example.com,Arkansas,free,0,,10164,0,False
+C10165,user10165@example.com,Tennessee,enterprise,137,,10165,0,False
+C10166,user10166@example.org,Nevada,free,0,,10166,0,False
+C10167,user10167@example.org,West Virginia,pro,43,,10167,0,False
+C10168,user10168@example.org,Utah,enterprise,91,,10168,0,False
+C10169,user10169@example.net,Connecticut,basic,14,,10169,0,False
+C10170,user10170@example.org,New Jersey,basic,22,Y,10170,1,False
+C10171,user10171@example.org,Oregon,basic,27,,10171,0,False
+C10172,user10172@example.org,Georgia,free,0,,10172,0,False
+C10173,user10173@example.com,Florida,basic,23,,10173,0,False
+C10174,user10174@example.com,Tennessee,free,0,,10174,0,False
+C10175,user10175@example.net,Massachusetts,free,0,,10175,0,False
+C10176,user10176@example.com,South Carolina,pro,50,,10176,0,False
+C10177,user10177@example.org,South Dakota,pro,80,,10177,0,False
+C10178,user10178@example.org,Idaho,basic,21,,10178,0,False
+C10179,user10179@example.net,Mississippi,basic,10,,10179,0,False
+C10180,user10180@example.org,Missouri,pro,54,,10180,0,False
+C10181,user10181@example.com,Mississippi,free,0,Y,10181,1,False
+C10182,user10182@example.net,Wisconsin,pro,34,,10182,0,False
+C10183,user10183@example.net,Michigan,enterprise,112,Y,10183,1,False
+C10184,user10184@example.com,Colorado,free,0,Y,10184,1,False
+C10185,user10185@example.net,Wisconsin,basic,15,,10185,0,False
+C10186,user10186@example.net,North Dakota,free,0,,10186,0,False
+C10187,user10187@example.net,Alaska,free,0,Y,10187,1,False
+C10188,user10188@example.com,Tennessee,pro,48,,10188,0,False
+C10189,user10189@example.net,Vermont,pro,37,,10189,0,False
+C10190,user10190@example.com,Virginia,pro,77,,10190,0,False
+C10191,user10191@example.com,Idaho,pro,45,,10191,0,False
+C10192,user10192@example.org,Delaware,enterprise,94,,10192,0,False
+C10193,user10193@example.org,Washington,free,0,,10193,0,False
+C10194,user10194@example.net,Massachusetts,basic,15,,10194,0,False
+C10195,user10195@example.org,Alaska,basic,24,,10195,0,False
+C10196,user10196@example.net,Indiana,enterprise,140,,10196,0,False
+C10197,user10197@example.org,Maryland,basic,12,,10197,0,False
+C10198,user10198@example.com,North Carolina,pro,78,,10198,0,False
+C10199,user10199@example.org,Alabama,free,0,,10199,0,False
+C10200,user10200@example.net,Illinois,pro,64,,10200,0,False
+C10201,user10201@example.com,Vermont,enterprise,81,,10201,0,False
+C10202,user10202@example.com,Virginia,basic,21,,10202,0,False
+C10203,[REDACTED_GDPR],Hawaii,free,0,,10203,0,True
+C10204,user10204@example.net,Rhode Island,enterprise,139,,10204,0,False
+C10205,user10205@example.org,Indiana,pro,39,,10205,0,False
+C10206,user10206@example.org,Missouri,free,0,Y,10206,1,False
+C10207,user10207@example.org,Maryland,pro,35,,10207,0,False
+C10208,user10208@example.org,Delaware,basic,24,,10208,0,False
+C10209,[REDACTED_GDPR],New Hampshire,basic,15,,10209,0,True
+C10210,user10210@example.org,Iowa,basic,12,,10210,0,False
+C10211,user10211@example.com,New Mexico,basic,23,,10211,0,False
+C10212,user10212@example.org,Texas,free,0,,10212,0,False
+C10213,user10213@example.net,Wisconsin,pro,39,,10213,0,False
+C10214,user10214@example.com,North Dakota,enterprise,118,Y,10214,1,False
+C10215,user10215@example.com,Alaska,pro,65,,10215,0,False
+C10216,user10216@example.net,South Carolina,basic,20,,10216,0,False
+C10217,user10217@example.net,Oklahoma,enterprise,81,,10217,0,False
+C10218,user10218@example.net,Montana,basic,21,,10218,0,False
+C10219,user10219@example.net,Illinois,basic,23,Y,10219,1,False
+C10220,[REDACTED_GDPR],Arkansas,basic,15,,10220,0,True
+C10221,[REDACTED_GDPR],New Hampshire,pro,73,,10221,0,True
+C10222,user10222@example.net,Minnesota,free,0,,10222,0,False
+C10223,user10223@example.com,Rhode Island,enterprise,91,,10223,0,False
+C10224,user10224@example.org,Iowa,basic,30,,10224,0,False
+C10225,user10225@example.net,Oregon,enterprise,144,Y,10225,1,False
+C10226,user10226@example.com,California,free,0,,10226,0,False
+C10227,user10227@example.net,Wyoming,basic,23,,10227,0,False
+C10228,user10228@example.org,Alabama,basic,27,,10228,0,False
+C10229,[REDACTED_GDPR],Nebraska,pro,49,,10229,0,True
+C10230,user10230@example.com,Georgia,enterprise,125,,10230,0,False
+C10231,user10231@example.org,New York,basic,21,,10231,0,False
+C10232,user10232@example.net,Maine,free,0,,10232,0,False
+C10233,user10233@example.org,Nevada,free,0,,10233,0,False
+C10234,user10234@example.org,Idaho,pro,32,,10234,0,False
+C10235,user10235@example.org,California,pro,66,Y,10235,1,False
+C10236,user10236@example.net,South Dakota,free,0,,10236,0,False
+C10237,user10237@example.net,Maine,pro,78,Y,10237,1,False
+C10238,user10238@example.org,Wisconsin,basic,18,Y,10238,1,False
+C10239,user10239@example.net,Indiana,pro,45,,10239,0,False
+C10240,user10240@example.net,Nebraska,basic,29,Y,10240,1,False
+C10241,user10241@example.org,New York,enterprise,138,,10241,0,False
+C10242,user10242@example.org,Texas,pro,62,,10242,0,False
+C10243,user10243@example.com,Iowa,pro,79,,10243,0,False
+C10244,user10244@example.net,Delaware,basic,20,,10244,0,False
+C10245,user10245@example.org,New Hampshire,free,0,,10245,0,False
+C10246,user10246@example.net,Oklahoma,enterprise,145,Y,10246,1,False
+C10247,user10247@example.com,North Dakota,free,0,,10247,0,False
+C10248,user10248@example.org,Oklahoma,basic,23,,10248,0,False
+C10249,user10249@example.com,Texas,pro,67,,10249,0,False
+C10250,user10250@example.org,Vermont,enterprise,132,,10250,0,False
+C10251,user10251@example.com,Hawaii,basic,26,,10251,0,False
+C10252,user10252@example.com,Pennsylvania,basic,16,Y,10252,1,False
+C10253,user10253@example.org,South Carolina,enterprise,104,,10253,0,False
+C10254,user10254@example.org,Washington,free,0,Y,10254,1,False
+C10255,[REDACTED_GDPR],Iowa,basic,13,Y,10255,1,True
+C10256,user10256@example.com,Arizona,enterprise,133,,10256,0,False
+C10257,user10257@example.com,North Carolina,pro,55,,10257,0,False
+C10258,user10258@example.org,Kansas,free,0,Y,10258,1,False
+C10259,user10259@example.org,Idaho,free,0,,10259,0,False
+C10260,user10260@example.com,Rhode Island,basic,22,,10260,0,False
+C10261,user10261@example.org,Virginia,free,0,,10261,0,False
+C10262,user10262@example.org,Florida,enterprise,82,,10262,0,False
+C10263,user10263@example.org,New York,enterprise,117,,10263,0,False
+C10264,user10264@example.com,Idaho,enterprise,93,,10264,0,False
+C10265,user10265@example.net,Colorado,free,0,,10265,0,False
+C10266,user10266@example.net,Virginia,free,0,,10266,0,False
+C10267,user10267@example.net,Colorado,pro,35,Y,10267,1,False
+C10268,user10268@example.net,Vermont,basic,24,,10268,0,False
+C10269,[REDACTED_GDPR],Delaware,enterprise,125,,10269,0,True
+C10270,user10270@example.org,Alaska,basic,12,Y,10270,1,False
+C10271,user10271@example.org,Hawaii,enterprise,130,,10271,0,False
+C10272,[REDACTED_GDPR],Pennsylvania,basic,14,,10272,0,True
+C10273,user10273@example.org,Rhode Island,free,0,Y,10273,1,False
+C10274,user10274@example.org,Virginia,basic,11,,10274,0,False
+C10275,user10275@example.com,Indiana,enterprise,145,,10275,0,False
+C10276,user10276@example.net,Massachusetts,free,0,,10276,0,False
+C10277,user10277@example.org,Indiana,enterprise,129,Y,10277,1,False
+C10278,user10278@example.net,Missouri,pro,78,,10278,0,False
+C10279,user10279@example.net,Tennessee,enterprise,140,Y,10279,1,False
+C10280,user10280@example.net,North Carolina,pro,53,,10280,0,False
+C10281,user10281@example.net,Michigan,enterprise,120,Y,10281,1,False
+C10282,user10282@example.org,Nevada,enterprise,141,Y,10282,1,False
+C10283,user10283@example.org,Minnesota,enterprise,124,,10283,0,False
+C10284,user10284@example.org,North Dakota,free,0,,10284,0,False
+C10285,user10285@example.net,Maryland,enterprise,133,,10285,0,False
+C10286,user10286@example.org,Arizona,pro,78,,10286,0,False
+C10287,user10287@example.com,Oregon,enterprise,108,,10287,0,False
+C10288,user10288@example.com,Kansas,basic,16,,10288,0,False
+C10289,user10289@example.org,Michigan,free,0,Y,10289,1,False
+C10290,user10290@example.net,Pennsylvania,free,0,Y,10290,1,False
+C10291,user10291@example.com,Florida,pro,51,Y,10291,1,False
+C10292,user10292@example.org,Mississippi,free,0,Y,10292,1,False
+C10293,user10293@example.net,Wyoming,basic,20,,10293,0,False
+C10294,user10294@example.net,Arizona,pro,54,,10294,0,False
+C10295,user10295@example.com,Georgia,basic,12,,10295,0,False
+C10296,user10296@example.org,Mississippi,pro,50,Y,10296,1,False
+C10297,user10297@example.net,Mississippi,pro,48,,10297,0,False
+C10298,user10298@example.com,Louisiana,pro,37,,10298,0,False
+C10299,[REDACTED_GDPR],Montana,free,0,Y,10299,1,True
+C10300,user10300@example.com,Washington,basic,27,,10300,0,False
+C10301,user10301@example.com,Mississippi,pro,47,,10301,0,False
+C10302,user10302@example.net,Oregon,enterprise,136,Y,10302,1,False
+C10303,user10303@example.org,Mississippi,pro,61,,10303,0,False
+C10304,[REDACTED_GDPR],New Hampshire,pro,55,Y,10304,1,True
+C10305,user10305@example.net,North Dakota,free,0,,10305,0,False
+C10306,user10306@example.net,Tennessee,free,0,,10306,0,False
+C10307,user10307@example.com,Indiana,basic,11,,10307,0,False
+C10308,user10308@example.com,Vermont,free,0,Y,10308,1,False
+C10309,user10309@example.org,Michigan,pro,42,,10309,0,False
+C10310,user10310@example.net,Arizona,basic,20,,10310,0,False
+C10311,user10311@example.com,North Dakota,basic,10,Y,10311,1,False
+C10312,user10312@example.net,Wyoming,enterprise,134,,10312,0,False
+C10313,user10313@example.com,Virginia,basic,18,,10313,0,False
+C10314,user10314@example.org,Wisconsin,basic,17,,10314,0,False
+C10315,user10315@example.org,Oregon,pro,74,,10315,0,False
+C10316,user10316@example.org,West Virginia,enterprise,103,Y,10316,1,False
+C10317,user10317@example.com,Colorado,basic,30,Y,10317,1,False
+C10318,user10318@example.net,Nevada,basic,28,,10318,0,False
+C10319,user10319@example.net,Colorado,basic,21,,10319,0,False
+C10320,user10320@example.com,Rhode Island,basic,10,Y,10320,1,False
+C10321,user10321@example.net,Arkansas,enterprise,92,,10321,0,False
+C10322,user10322@example.net,Texas,pro,34,Y,10322,1,False
+C10323,user10323@example.com,Wyoming,basic,18,,10323,0,False
+C10324,user10324@example.com,Utah,enterprise,93,Y,10324,1,False
+C10325,user10325@example.com,Florida,free,0,Y,10325,1,False
+C10326,user10326@example.net,Kentucky,basic,17,,10326,0,False
+C10327,user10327@example.com,Montana,free,0,Y,10327,1,False
+C10328,user10328@example.net,Idaho,pro,45,,10328,0,False
+C10329,[REDACTED_GDPR],Nebraska,pro,32,Y,10329,1,True
+C10330,user10330@example.net,Oklahoma,enterprise,82,,10330,0,False
+C10331,[REDACTED_GDPR],Alaska,basic,18,,10331,0,True
+C10332,user10332@example.org,Nevada,free,0,,10332,0,False
+C10333,user10333@example.org,Florida,pro,59,,10333,0,False
+C10334,user10334@example.com,Delaware,basic,26,Y,10334,1,False
+C10335,user10335@example.com,Alabama,free,0,Y,10335,1,False
+C10336,user10336@example.org,Tennessee,free,0,,10336,0,False
+C10337,user10337@example.com,Michigan,free,0,Y,10337,1,False
+C10338,user10338@example.net,Alaska,free,0,,10338,0,False
+C10339,user10339@example.com,North Carolina,pro,34,,10339,0,False
+C10340,user10340@example.net,Utah,basic,29,,10340,0,False
+C10341,user10341@example.org,Ohio,enterprise,97,,10341,0,False
+C10342,[REDACTED_GDPR],Texas,pro,43,,10342,0,True
+C10343,user10343@example.net,Colorado,basic,20,,10343,0,False
+C10344,user10344@example.org,Georgia,enterprise,141,,10344,0,False
+C10345,user10345@example.net,Florida,free,0,Y,10345,1,False
+C10346,user10346@example.net,Ohio,pro,35,,10346,0,False
+C10347,user10347@example.com,Colorado,pro,37,,10347,0,False
+C10348,user10348@example.com,South Carolina,basic,13,,10348,0,False
+C10349,user10349@example.org,Delaware,free,0,,10349,0,False
+C10350,[REDACTED_GDPR],South Carolina,enterprise,97,Y,10350,1,True
+C10351,user10351@example.org,Massachusetts,enterprise,104,,10351,0,False
+C10352,user10352@example.net,Florida,pro,39,,10352,0,False
+C10353,user10353@example.net,Arizona,basic,18,,10353,0,False
+C10354,user10354@example.org,Virginia,free,0,,10354,0,False
+C10355,user10355@example.com,Minnesota,free,0,Y,10355,1,False
+C10356,[REDACTED_GDPR],Massachusetts,basic,11,,10356,0,True
+C10357,user10357@example.net,New Jersey,pro,49,,10357,0,False
+C10358,user10358@example.org,Washington,enterprise,124,,10358,0,False
+C10359,user10359@example.org,Arizona,free,0,,10359,0,False
+C10360,user10360@example.net,Delaware,basic,19,,10360,0,False
+C10361,user10361@example.com,Hawaii,free,0,,10361,0,False
+C10362,user10362@example.org,Delaware,enterprise,119,,10362,0,False
+C10363,user10363@example.com,Florida,basic,13,Y,10363,1,False
+C10364,[REDACTED_GDPR],Washington,enterprise,85,,10364,0,True
+C10365,user10365@example.org,Illinois,basic,15,,10365,0,False
+C10366,user10366@example.org,Idaho,basic,25,,10366,0,False
+C10367,user10367@example.com,Colorado,basic,20,,10367,0,False
+C10368,user10368@example.net,New Mexico,basic,24,,10368,0,False
+C10369,user10369@example.com,West Virginia,basic,20,,10369,0,False
+C10370,user10370@example.com,Florida,free,0,Y,10370,1,False
+C10371,user10371@example.org,Texas,enterprise,87,,10371,0,False
+C10372,user10372@example.com,Vermont,pro,80,,10372,0,False
+C10373,user10373@example.net,Pennsylvania,basic,13,Y,10373,1,False
+C10374,user10374@example.org,Pennsylvania,free,0,Y,10374,1,False
+C10375,user10375@example.net,Arkansas,basic,29,Y,10375,1,False
+C10376,user10376@example.org,Alaska,basic,16,Y,10376,1,False
+C10377,user10377@example.net,West Virginia,enterprise,82,Y,10377,1,False
+C10378,user10378@example.net,Illinois,basic,26,,10378,0,False
+C10379,user10379@example.net,Vermont,basic,21,Y,10379,1,False
+C10380,user10380@example.com,South Dakota,enterprise,120,,10380,0,False
+C10381,user10381@example.org,New Hampshire,free,0,,10381,0,False
+C10382,[REDACTED_GDPR],Utah,free,0,Y,10382,1,True
+C10383,user10383@example.com,Pennsylvania,free,0,,10383,0,False
+C10384,user10384@example.org,New Hampshire,basic,14,,10384,0,False
+C10385,user10385@example.org,Mississippi,pro,40,Y,10385,1,False
+C10386,user10386@example.net,New York,pro,49,,10386,0,False
+C10387,user10387@example.org,Wisconsin,basic,28,,10387,0,False
+C10388,user10388@example.net,Connecticut,basic,23,,10388,0,False
+C10389,[REDACTED_GDPR],Maine,basic,11,,10389,0,True
+C10390,user10390@example.org,New Mexico,pro,33,,10390,0,False
+C10391,user10391@example.org,Florida,basic,20,,10391,0,False
+C10392,user10392@example.org,Arizona,pro,62,,10392,0,False
+C10393,user10393@example.net,New Mexico,free,0,,10393,0,False
+C10394,user10394@example.com,Louisiana,free,0,Y,10394,1,False
+C10395,user10395@example.org,Arizona,free,0,,10395,0,False
+C10396,user10396@example.net,Vermont,free,0,,10396,0,False
+C10397,user10397@example.net,Vermont,free,0,Y,10397,1,False
+C10398,user10398@example.net,Alabama,enterprise,81,,10398,0,False
+C10399,user10399@example.net,California,free,0,,10399,0,False
