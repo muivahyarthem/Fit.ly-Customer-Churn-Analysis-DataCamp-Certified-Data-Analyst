@@ -60,11 +60,6 @@ This end-to-end data analytics project integrates disparate data silos—**Accou
 │   ├── 01_data_audit_and_cleaning.ipynb    # Column-level validation, hygiene & GDPR compliance
 │   ├── 02_feature_engineering_and_eda.ipynb# Aggregation, Customer 360 & hypothesis testing
 │   └── 03_churn_modeling_and_kpis.ipynb    # Odds ratios, cross-validation & executive KPIs
-├── task_to_do/                             # Business prompts, stakeholder emails & grading rubric
-│   ├── Practical+-+DA+-+Fitly.pdf          # DataCamp official practical exam brief & rubric
-│   ├── da_fitly_product_manager_email.pdf  # Context on business tiers & Pacific timezones
-│   ├── da_fitly_lead_engineer_email.pdf    # System downtime, ETL details & missing data notes
-│   └── work.docx                           # Project briefing notes
 └── README.md                               # Comprehensive project documentation
 ```
 
